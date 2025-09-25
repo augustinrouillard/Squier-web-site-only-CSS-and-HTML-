@@ -73,4 +73,16 @@ header.navbar {
     flex: 1;
     height: 30px;
 }
+/* -----------------------------------Searchbar CSS-------------------------------- */
+/* -----------------------------------Vidéo pres CSS-------------------------------- */
+.video-container {
+    display: flex;
+    justify-content: center;         
+}
 
+.video-container video {
+    width: 100%;          
+    max-width: 800px;     
+    aspect-ratio: 16/9;    
+}
+/* -----------------------------------Vidéo pres CSS-------------------------------- */
