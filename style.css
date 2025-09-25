@@ -1,3 +1,11 @@
+/* -----------------------------------washing machin-------------------------------- */
+* {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+/* -----------------------------------washing machin-------------------------------- */
+/* -----------------------------------Header CSS-------------------------------- */
 header img {
     width: 80px;
     background-color: white;
@@ -14,12 +22,6 @@ header img {
   height: auto;
 }
 
-* {
-    background-color: antiquewhite;
-    margin: 0;
-    padding: 0;
-}
-
 header nav {
     display: flex;
     gap: 15px;
@@ -29,10 +31,46 @@ header nav {
 header.navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 50px;
+    align-items: flex-start;
+    padding: 20px;
     width: 100%;
     background-color: white;
+    box-sizing: border-box;
+}
+/* -----------------------------------Header CSS-------------------------------- */
+/* -----------------------------------Searchbar CSS-------------------------------- */
+.searchbar {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    padding: 20px 0;         
+    box-sizing: border-box;
 }
 
-@media (min-width: 768px) {}
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: rgb(237, 235, 235);
+    width: 100%;
+    max-width: 600px;        
+    border-radius: 25px;
+    padding: 5px 15px;       
+    box-sizing: border-box;
+}
+
+.input-wrapper img {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    background-color: rgb(237, 235, 235);
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    flex: 1;
+    height: 30px;
+}
+
