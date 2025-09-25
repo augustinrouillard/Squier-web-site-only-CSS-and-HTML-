@@ -1,0 +1,38 @@
+header img {
+    width: 80px;
+    background-color: white;
+    display: flex;
+}
+
+.iconbar {
+  display: flex;
+  gap: 15px;
+
+}
+.iconbar img {
+  width: 25px;
+  height: auto;
+}
+
+* {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+    background-color: white;
+}
+
+header.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+
+@media (min-width: 768px) {}
