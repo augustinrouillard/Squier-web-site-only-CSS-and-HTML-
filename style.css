@@ -234,6 +234,43 @@ div.scroll-container2 img {
     border: 2px solid black;
 }
 /* -----------------------------------End Shop text-------------------------------- */
-/* -----------------------------------mailing-------------------------------- */
+/* -----------------------------------Mailing-------------------------------- */
+.mailing-wrapper h3 {
+    font-family: "Alan Sans";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
 
-/* -----------------------------------mailing-------------------------------- */
+.mailing-wrapper p {
+    font-family: "Alan Sans";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mailbar {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    padding: 20px 0;         
+    box-sizing: border-box;
+    border-bottom: 2px solid rgb(237, 235, 235);
+}
+/* -----------------------------------Mailing-------------------------------- */
+/* -----------------------------------Social-------------------------------- */
+.socials-wrapper{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.socials-wrapper img {
+  width: 25px;
+  height: auto;
+}
+/* -----------------------------------Social-------------------------------- */
