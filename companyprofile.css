@@ -99,20 +99,56 @@ header.navbar {
 }
 /* -----------------------------------Vidéo pres CSS-------------------------------- */
 /* -----------------------------------Text on the Video-------------------------------- */
-.companytextonvideo {
+.companytextonvideo .more {
     position: absolute;   
-    top: 50%;      
+    top: 20%;      
     left: 53%;       
     transform: translate(-50%, -50%); 
     color: white;         
     text-align: left;
     width: 100%; 
 }
-.companytextonvideo h1 {
-    font-size: 28px;
+
+.companytextonvideo .more {
+    font-size: 25px;
     font-family: "Alan Sans", sans-serif;
     text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
-    line-height: 65px;
+    line-height: 45px;
+}
+
+.companytextonvideo .than {
+    position: absolute;   
+    top: 55%;      
+    left: 80%;       
+    transform: translate(-50%, -50%); 
+    color: white;         
+    text-align: left;
+    width: 100%; 
+}
+
+.companytextonvideo .than {
+    font-size: 25px;
+    font-family: "Alan Sans", sans-serif;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    line-height: 45px;
+}
+
+.companytextonvideo .basses {
+    position: absolute;   
+    top: 80%;      
+    left: 110%;       
+    transform: translate(-50%, -50%); 
+    color: white;         
+    text-align: left;
+    width: 100%; 
+}
+
+.companytextonvideo .basses {
+    font-size: 25px;
+    font-family: "Alan Sans", sans-serif;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    line-height: 45px;
+    border-bottom: 2px solid rgb(237, 235, 235);
 }
 /* -----------------------------------Text on the Video-------------------------------- */
 /* -----------------------------------Text history-------------------------------- */
@@ -143,3 +179,17 @@ header.navbar {
   font-family: "Inter", sans-serif;
 }
 /* -----------------------------------Text history-------------------------------- */
+/* -----------------------------------Social-------------------------------- */
+.socials-wrapper {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border-top: 2px solid rgb(237, 235, 235);
+}
+
+.socials-wrapper img {
+    width: 25px;
+    height: auto;
+}
+/* -----------------------------------Social-------------------------------- */
