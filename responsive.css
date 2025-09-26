@@ -1,9 +1,5 @@
-/* TABLETTE - écran >= 768px */
+/* ---------------------------------Responsive paramameters---------------------------------- */
 @media screen and (min-width: 768px) {
-
-    .input-wrapper {
-        max-width: 700px;
-    }
 
     header.navbar {
         align-items: center;
@@ -11,6 +7,10 @@
 
     .iconbar img {
         width: 30px;
+    }
+
+    .endshoptext {
+        justify-content: center;
     }
 
     .video-container video {
@@ -39,23 +39,30 @@
     }
 }
 
-/* ORDINATEUR - écran >= 1024px */
 @media screen and (min-width: 1024px) {
 
-    .input-wrapper {
-        max-width: 900px;
-    }
-
-    header.navbar {
-        padding: 20px 60px;
+    .header-top {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
     }
 
     .searchbar {
-        padding: 40px 0;
+        flex: 1;
+        margin: 0 20px;
+    }
+
+    .input-wrapper {
+        width: 100%;
     }
 
     .search-input {
         font-size: 18px;
+    }
+
+    .endshoptext {
+        justify-content: center;
     }
 
     .video-container video {

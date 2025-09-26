@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="responsive.css"> -->
+    <link rel="stylesheet" href="responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,23 +16,28 @@
 
 <body>
     <header class="navbar">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Squier_guitars_logo.png/1200px-Squier_guitars_logo.png"
-            alt="Logo Squier">
-        <nav class="iconbar">
-            <a><img src="mediafolder/broche-de-localisation.png" alt="localisation icon"></a>
-            <a><img src="mediafolder/contact.png" alt="contact icon"></a>
-            <a><img src="mediafolder/panier.png" alt="Basket icon"></a>
-        </nav>
-    </header>
-    <main>
-        <div class="searchbar">
-            <form class="search-form" action="#" method="get">
-                <div class="input-wrapper">
-                    <img src="mediafolder/loupe-arrondie.png" alt="Find">
-                    <input type="text" name="q" class="search-input" placeholder="What are you looking for...?">
-                </div>
-            </form>
+        <div class="header-top">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Squier_guitars_logo.png/1200px-Squier_guitars_logo.png"
+                alt="Logo Squier">
+
+            <div class="searchbar">
+                <form class="search-form" action="#" method="get">
+                    <div class="input-wrapper">
+                        <img src="mediafolder/loupe-arrondie.png" alt="Find">
+                        <input type="text" name="q" class="search-input" placeholder="What are you looking for...?">
+                    </div>
+                </form>
+            </div>
+
+            <nav class="iconbar">
+                <a><img src="mediafolder/broche-de-localisation.png" alt="localisation icon"></a>
+                <a><img src="mediafolder/contact.png" alt="contact icon"></a>
+                <a><img src="mediafolder/panier.png" alt="Basket icon"></a>
+            </nav>
         </div>
+    </header>
+
+    <main>
         <div class="video-container">
             <video class="background-video" autoplay loop muted>
                 <source src="mediafolder/videopres.mp4" type="video/mp4">
@@ -80,7 +85,7 @@
         <div class="endshoptext">
             <div class="endshoptext-wrapper">
                 <div class="endshopcontainer">
-                    <h3>More results</h3>
+                    <h3>Show more</h3>
                 </div>
             </div>
         </div>
@@ -90,7 +95,7 @@
                 <p>Be the first to know about new products, featured content, exclusive offers and giveaways.</p>
                 <div class="mailbar">
                     <form class="search-form" action="#" method="get">
-                        <div class="input-wrapper">
+                        <div class="input-wrappermail">
                             <input type="text" name="q" class="search-input" placeholder="Enter you Email adress...">
                         </div>
                     </form>
@@ -99,26 +104,26 @@
         </div>
         <div class="contact">
             <div class="contact-wrapper">
-                    <h2>Feel free to contact us</h2>
-                    <form class="contact-form" action="#" method="post">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" placeholder="Enter your name..." required>
-                        </div>
+                <h2>Feel free to contact us</h2>
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                    </div>
 
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" placeholder="Enter your email..." required>
-                        </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+                    </div>
 
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" placeholder="Write your message..."
-                                required></textarea>
-                        </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message..."
+                            required></textarea>
+                    </div>
 
-                        <button type="submit">Send Message</button>
-                    </form>
+                    <button type="submit">Send Message</button>
+                </form>
 
             </div>
         </div>

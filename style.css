@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 /* -----------------------------------washing machin-------------------------------- */
 /* -----------------------------------Header CSS-------------------------------- */
 header img {
@@ -12,13 +13,13 @@ header img {
 }
 
 .iconbar {
-  display: flex;
-  gap: 15px;
-
+    display: flex;
+    gap: 60px;
 }
+
 .iconbar img {
-  width: 25px;
-  height: auto;
+    width: 25px;
+    height: auto;
 }
 
 header nav {
@@ -28,26 +29,30 @@ header nav {
 }
 
 header.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
     padding: 20px;
-    width: 100%;
     background-color: white;
-    box-sizing: border-box;
 }
+
+.header-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
 /* -----------------------------------Header CSS-------------------------------- */
 /* -----------------------------------Searchbar CSS-------------------------------- */
 .searchbar {
     width: 100%;
     display: flex;
-    justify-content: start;
-    padding: 20px;
+    justify-content: center;
+    padding: 10px 0;
     box-sizing: border-box;
-    margin: 0 auto; 
 }
 
-.search-form{
+.search-form {
     width: 100%;
 }
 
@@ -57,8 +62,8 @@ header.navbar {
     background-color: rgb(237, 235, 235);
     border-radius: 25px;
     padding: 5px 15px;
-    box-sizing: border-box; 
-    width: 100%;        
+    box-sizing: border-box;
+    width: 100%;
 }
 
 
@@ -77,25 +82,27 @@ header.navbar {
     flex: 1;
     height: 30px;
 }
+
 /* -----------------------------------Searchbar CSS-------------------------------- */
 /* -----------------------------------Vidéo pres CSS-------------------------------- */
 .video-container {
     display: flex;
-    justify-content: center;         
+    justify-content: center;
 }
 
 .video-container video {
-    width: 100%;          
-    max-width: 800px;     
-    aspect-ratio: 16/9;    
+    width: 100%;
+    max-width: 800px;
+    aspect-ratio: 16/9;
 }
+
 /* -----------------------------------Vidéo pres CSS-------------------------------- */
 /* -----------------------------------Text de présentation-------------------------------- */
 .presentation-text {
     width: 100%;
     display: flex;
-    flex-direction: column; 
-    align-items: left;    
+    flex-direction: column;
+    align-items: left;
     padding: 20px 0;
     box-sizing: border-box;
     text-align: left;
@@ -128,34 +135,35 @@ header.navbar {
 }
 
 .inline-expand {
-  display: inline;
+    display: inline;
 }
 
 .inline-expand summary {
-  display: inline;
-  cursor: pointer;
-  font-weight: bold;
-  list-style: none;
+    display: inline;
+    cursor: pointer;
+    font-weight: bold;
+    list-style: none;
 }
 
 .inline-expand summary::-webkit-details-marker {
-  display: none;
+    display: none;
 }
 
 .inline-expand span.collapse-btn {
-  display: none;
-  cursor: pointer;
-  font-weight: bold;
-  margin-left: 8px;
+    display: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 8px;
 }
 
 .inline-expand[open] summary {
-  display: none;
+    display: none;
 }
 
 .inline-expand[open] span.collapse-btn {
-  display: inline;
+    display: inline;
 }
+
 /* -----------------------------------Text de présentation-------------------------------- */
 /* -----------------------------------Shop container-------------------------------- */
 .shopcontainer {
@@ -176,46 +184,56 @@ header.navbar {
     font-optical-sizing: auto;
     font-weight: 400;
 }
+
 /* -----------------------------------Shop Container-------------------------------- */
 /* -----------------------------------Gallery Jazz-------------------------------- */
 div.scroll-container {
-  background-color: white;
-  overflow-x: auto; 
-  white-space: nowrap;
-  padding: 10px;
-  border-bottom: 2px solid rgb(237, 235, 235);
+    background-color: white;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+    border-bottom: 2px solid rgb(237, 235, 235);
 }
 
 div.scroll-container img {
-  display: inline-block; 
-  height: 300px;         
-  margin-right: 10px;    
+    display: inline-block;
+    height: 300px;
+    margin-right: 10px;
 }
 
 div.scroll-container2 {
-  background-color: white;
-  overflow-x: auto; 
-  white-space: nowrap;
-  padding: 10px;
+    background-color: white;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
 }
 
 div.scroll-container2 img {
-  display: inline-block; 
-  height: 300px;         
-  margin-right: 10px;    
+    display: inline-block;
+    height: 300px;
+    margin-right: 10px;
 }
 
 /* -----------------------------------Gallery Jazz-------------------------------- */
 /* -----------------------------------End Shop text-------------------------------- */
+/* End Shop text */
 .endshoptext {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    justify-content: center; 
+    align-items: center;     
+    padding: 20px;
     border-bottom: 2px solid rgb(237, 235, 235);
+}
+
+.endshoptext-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    width: 100%;
+    max-width: 200px;        
+    border-radius: 25px;
+    padding: 10px 15px;
+    border: 2px solid black;
 }
 
 .endshoptext h3 {
@@ -223,20 +241,9 @@ div.scroll-container2 img {
     font-optical-sizing: auto;
     font-weight: 400;
     background-color: rgb(255, 255, 255);
+    justify-content: center;
 }
 
-.endshoptext-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    max-width: 600px;        
-    border-radius: 25px;
-    padding: 5px 15px;       
-    box-sizing: border-box;
-    border: 2px solid black;
-}
 /* -----------------------------------End Shop text-------------------------------- */
 /* -----------------------------------Mailing-------------------------------- */
 .mailing-wrapper h3 {
@@ -245,6 +252,8 @@ div.scroll-container2 img {
     font-weight: 400;
     background-color: rgb(255, 255, 255);
     padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .mailing-wrapper p {
@@ -254,88 +263,108 @@ div.scroll-container2 img {
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .mailbar {
     width: 100%;
     display: flex;
-    justify-content: center; 
-    padding: 20px 0;         
+    justify-content: center;
+    padding: 20px;
     box-sizing: border-box;
     border-bottom: 2px solid rgb(237, 235, 235);
 }
+
+.input-wrappermail {
+    display: flex;
+    align-items: center;
+    background-color: rgb(237, 235, 235);
+    border-radius: 25px;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    width: 300px;
+}
+
+.mailbar form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
 /* -----------------------------------Mailing-------------------------------- */
 /* -----------------------------------Contact form-------------------------------- */
 
 .contact-wrapper {
-  width: 100%;
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: rgb(237, 235, 235);
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-  font-family: "Alan Sans", sans-serif;
-  box-sizing: border-box;
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(237, 235, 235);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Alan Sans", sans-serif;
+    box-sizing: border-box;
 }
 
 .contact-wrapper h2 {
-  text-align: center;
-  background-color: rgb(237, 235, 235);
-  margin-bottom: 20px;
-  font-weight: 500;
-  color: #222;
+    text-align: center;
+    background-color: rgb(237, 235, 235);
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #222;
 }
 
 .contact-form .form-group {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
 }
 
 .contact-form label {
-  margin-bottom: 5px;
-  background-color: rgb(237, 235, 235);
-  font-weight: 500;
-  font-size: 14px;
+    margin-bottom: 5px;
+    background-color: rgb(237, 235, 235);
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .contact-form input,
 .contact-form textarea {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 14px;
-  background-color: rgb(237, 235, 235);
-  font-family: inherit;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: rgb(237, 235, 235);
+    font-family: inherit;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: #333;
-  outline: none;
+    border-color: #333;
+    outline: none;
 }
 
 .contact-form button {
-  width: 100%;
-  padding: 12px;
-  background-color: black;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  font-size: 16px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background 0.3s ease;
+    width: 100%;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
 }
 
 .contact-form button:hover {
-  background-color: #444;
+    background-color: #444;
 }
 
 /* -----------------------------------Contact form-------------------------------- */
 /* -----------------------------------Social-------------------------------- */
-.socials-wrapper{
+.socials-wrapper {
     padding: 20px;
     display: flex;
     gap: 20px;
@@ -344,29 +373,30 @@ div.scroll-container2 img {
 }
 
 .socials-wrapper img {
-  width: 25px;
-  height: auto;
+    width: 25px;
+    height: auto;
 }
+
 /* -----------------------------------Social-------------------------------- */
 /* -----------------------------------Mendatory section-------------------------------- */
-.mendatorysection-wrapper{
+.mendatorysection-wrapper {
     font-family: "Alan Sans";
     font-optical-sizing: auto;
     font-weight: 400;
     font-size: small;
     align-items: center;
-    text-align: center; 
-    padding: 20px;        
+    text-align: center;
+    padding: 20px;
 }
 
 .mendatorysection-wrapper ul {
-    list-style: none; 
+    list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;  
-    gap: 15px;  
-    padding-bottom: 20px; 
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 20px;
 }
 
 .mendatorysection-wrapper p {
@@ -374,81 +404,3 @@ div.scroll-container2 img {
 }
 
 /* -----------------------------------Mendatory section-------------------------------- */
-/* ---------------------------------Responsive paramameters---------------------------------- */
-/* TABLETTE - écran >= 768px */
-@media screen and (min-width: 768px) {
-
-    header.navbar {
-        align-items: center;
-    }
-
-    .iconbar img {
-        width: 30px;
-    }
-
-    .video-container video {
-        max-width: 1000px;
-    }
-
-    .presentation-text {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 40px;
-        text-align: left;
-    }
-
-    .presentation-text h1 {
-        font-size: 2rem;
-    }
-
-    .scroll-container img,
-    .scroll-container2 img {
-        height: 350px;
-    }
-
-    .contact-wrapper {
-        padding: 40px;
-    }
-}
-
-/* ORDINATEUR - écran >= 1024px */
-@media screen and (min-width: 1024px) {
-
-    header.navbar {
-        padding: 20px 60px;
-    }
-
-    .search-input {
-        font-size: 18px;
-    }
-
-    .video-container video {
-        max-width: 1200px;
-    }
-
-    .presentation-text {
-        padding: 60px 80px;
-    }
-
-    .shopcontainer {
-        padding: 40px 60px;
-    }
-
-    .scroll-container img,
-    .scroll-container2 img {
-        height: 400px;
-    }
-
-    .contact-wrapper {
-        max-width: 800px;
-    }
-
-    .socials-wrapper {
-        gap: 40px;
-    }
-
-    .mendatorysection-wrapper {
-        font-size: medium;
-    }
-}
