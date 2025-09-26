@@ -1,6 +1,5 @@
 /* -----------------------------------washing machin-------------------------------- */
 * {
-    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -261,12 +260,82 @@ div.scroll-container2 img {
     border-bottom: 2px solid rgb(237, 235, 235);
 }
 /* -----------------------------------Mailing-------------------------------- */
+/* -----------------------------------Contact form-------------------------------- */
+
+.contact-wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(237, 235, 235);
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  font-family: "Alan Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.contact-wrapper h2 {
+  text-align: center;
+  background-color: rgb(237, 235, 235);
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #222;
+}
+
+.contact-form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+  background-color: rgb(237, 235, 235);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: rgb(237, 235, 235);
+  font-family: inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #333;
+  outline: none;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #444;
+}
+
+/* -----------------------------------Contact form-------------------------------- */
 /* -----------------------------------Social-------------------------------- */
 .socials-wrapper{
     padding: 20px;
     display: flex;
     gap: 20px;
     justify-content: center;
+    border-top: 2px solid rgb(237, 235, 235);
 }
 
 .socials-wrapper img {
