@@ -1,0 +1,89 @@
+/* TABLETTE - écran >= 768px */
+@media screen and (min-width: 768px) {
+
+    .input-wrapper {
+        max-width: 700px;
+    }
+
+    header.navbar {
+        align-items: center;
+    }
+
+    .iconbar img {
+        width: 30px;
+    }
+
+    .video-container video {
+        max-width: 1000px;
+    }
+
+    .presentation-text {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px;
+        text-align: left;
+    }
+
+    .presentation-text h1 {
+        font-size: 2rem;
+    }
+
+    .scroll-container img,
+    .scroll-container2 img {
+        height: 350px;
+    }
+
+    .contact-wrapper {
+        padding: 40px;
+    }
+}
+
+/* ORDINATEUR - écran >= 1024px */
+@media screen and (min-width: 1024px) {
+
+    .input-wrapper {
+        max-width: 900px;
+    }
+
+    header.navbar {
+        padding: 20px 60px;
+    }
+
+    .searchbar {
+        padding: 40px 0;
+    }
+
+    .search-input {
+        font-size: 18px;
+    }
+
+    .video-container video {
+        max-width: 1200px;
+    }
+
+    .presentation-text {
+        padding: 60px 80px;
+    }
+
+    .shopcontainer {
+        padding: 40px 60px;
+    }
+
+    .scroll-container img,
+    .scroll-container2 img {
+        height: 400px;
+    }
+
+    .contact-wrapper {
+        max-width: 800px;
+    }
+
+    .socials-wrapper {
+        gap: 40px;
+    }
+
+    .mendatorysection-wrapper {
+        font-size: medium;
+    }
+}
