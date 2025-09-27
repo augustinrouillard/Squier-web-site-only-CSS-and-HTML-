@@ -1,0 +1,173 @@
+/* -----------------------------------washing machin-------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* -----------------------------------washing machin-------------------------------- */
+/* -----------------------------------Header CSS-------------------------------- */
+header img {
+    width: 80px;
+    background-color: white;
+    display: flex;
+}
+
+.iconbar {
+    display: flex;
+    gap: 60px;
+}
+
+.iconbar img {
+    width: 25px;
+    height: auto;
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+    background-color: white;
+}
+
+header.navbar {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.header-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* -----------------------------------Header CSS-------------------------------- */
+/* -----------------------------------Searchbar CSS-------------------------------- */
+.searchbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.search-form {
+    width: 100%;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: rgb(237, 235, 235);
+    border-radius: 25px;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+.input-wrapper img {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    background-color: rgb(237, 235, 235);
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    flex: 1;
+    height: 30px;
+}
+
+/* -----------------------------------Searchbar CSS-------------------------------- */
+/* -----------------------------------Shop container-------------------------------- */
+.shopcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.shopcontainer h2 {
+    font-family: "Alan Sans";
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+.shopcontainer p {
+    font-family: "Alan Sans";
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+/* -----------------------------------Shop container-------------------------------- */
+/* -----------------------------------Gallery Jazz and Precision-------------------------------- */
+div.scroll-container {
+    background-color: white;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+    border-bottom: 2px solid rgb(237, 235, 235);
+}
+
+div.scroll-container img {
+    display: inline-block;
+    height: 300px;
+    margin-right: 10px;
+}
+
+div.scroll-container2 {
+    background-color: white;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+div.scroll-container2 img {
+    display: inline-block;
+    height: 300px;
+    margin-right: 10px;
+}
+/* -----------------------------------Gallery Jazz and Precision-------------------------------- */
+/* -----------------------------------Social-------------------------------- */
+.socials-wrapper {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border-top: 2px solid rgb(237, 235, 235);
+}
+
+.socials-wrapper img {
+    width: 25px;
+    height: auto;
+}
+/* -----------------------------------Social-------------------------------- */
+/* -----------------------------------Mendatory section-------------------------------- */
+.mendatorysection-wrapper {
+    font-family: "Alan Sans";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: small;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.mendatorysection-wrapper ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+
+.mendatorysection-wrapper p {
+    font-style: italic;
+}
+/* -----------------------------------Mendatory section-------------------------------- */
