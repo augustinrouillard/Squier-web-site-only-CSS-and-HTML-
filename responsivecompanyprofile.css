@@ -46,6 +46,16 @@
         font-size: 70px;
         line-height: 55px;
   }
+  .history-block {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .history-block p {
+    text-align: left;
+    font-size: 1.1rem;
+  }
+
 }
 
 @media screen and (min-width: 1024px) {
