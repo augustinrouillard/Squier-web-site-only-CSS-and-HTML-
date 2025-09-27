@@ -1,0 +1,109 @@
+/* ---------------------------------Responsive paramameters---------------------------------- */
+@media screen and (max-width: 767px) {
+  .companytextonvideo .basses {
+    border-bottom: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+    header.navbar {
+        align-items: center;
+    }
+
+    .iconbar img {
+        width: 30px;
+    }
+
+    .endshoptext {
+        justify-content: center;
+    }
+
+    .presentation-text {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px;
+        text-align: left;
+    }
+
+    .presentation-text h1 {
+        font-size: 2rem;
+    }
+
+    .scroll-container img,
+    .scroll-container2 img {
+        height: 350px;
+    }
+
+    .contact-wrapper {
+        padding: 40px;
+    }
+
+    .companytextonvideo .more,
+    .companytextonvideo .than,
+    .companytextonvideo .basses {
+        font-size: 70px;
+        line-height: 55px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .header-top {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .searchbar {
+        flex: 1;
+        margin: 0 20px;
+    }
+
+    .input-wrapper {
+        width: 100%;
+    }
+
+    .search-input {
+        font-size: 18px;
+    }
+
+    .endshoptext {
+        justify-content: center;
+    }
+
+
+    .presentation-text {
+        padding: 60px 80px;
+    }
+
+    .shopcontainer {
+        padding: 40px 60px;
+    }
+
+    .scroll-container img,
+    .scroll-container2 img {
+        height: 400px;
+    }
+
+    .contact-wrapper {
+        max-width: 800px;
+    }
+
+    .socials-wrapper {
+        gap: 40px;
+    }
+
+    .mendatorysection-wrapper {
+        font-size: medium;
+    }
+
+    .companytextonvideo .more,
+    .companytextonvideo .than,
+    .companytextonvideo .basses {
+        font-size: 90px;
+        line-height: 70px;
+  }
+}

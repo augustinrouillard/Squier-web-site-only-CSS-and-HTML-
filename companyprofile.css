@@ -90,6 +90,8 @@ header.navbar {
     width: 100%;
     max-width: none; 
     overflow: hidden;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(237, 235, 235);
 }
 
 .background-video {
@@ -118,7 +120,7 @@ header.navbar {
 
 .companytextonvideo .than {
     position: absolute;   
-    top: 55%;      
+    top: 50%;      
     left: 80%;       
     transform: translate(-50%, -50%); 
     color: white;         
@@ -193,3 +195,28 @@ header.navbar {
     height: auto;
 }
 /* -----------------------------------Social-------------------------------- */
+/* -----------------------------------Mendatory section-------------------------------- */
+.mendatorysection-wrapper {
+    font-family: "Alan Sans";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: small;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.mendatorysection-wrapper ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+
+.mendatorysection-wrapper p {
+    font-style: italic;
+}
+/* -----------------------------------Mendatory section-------------------------------- */
