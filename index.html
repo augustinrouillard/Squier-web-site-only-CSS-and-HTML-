@@ -51,15 +51,15 @@
         </div>
         <div class="presentation-text">
             <h1>Electric Basses</h1>
-            <p>
-                Squier raises the bar for the legendary electric bass by offering
+            <p id="paragraph">Squier raises the bar for the legendary electric bass by offering</p>
+            <!-- <details class="inline-expand"> -->
+            <!-- a wide range of models with high performance for all styles. From vintage-inspired tones -->
+            <!-- to modern designs, every musician can find their match. -->
+            <button id="expand"> Expand </button>
+            <button id="collapse" style="display: none">Collapse</button>
+            <!-- <span class="collapse-btn">Collapse</span> -->
+            <!-- </details> -->
             </p>
-            <details class="inline-expand">
-                <summary>Expand...</summary>
-                a wide range of models with high performance for all styles. From vintage-inspired tones
-                to modern designs, every musician can find their match.
-                <span class="collapse-btn">Collapse</span>
-            </details>
         </div>
         <!-------------------------------------New basses---------------------------------->
         <!-------------------------------------Bass gallery---------------------------------->
@@ -173,6 +173,25 @@
         </div>
     </footer>
     <!-------------------------------------Mendatory Section---------------------------------->
+    <!-------------------------------------Javascript for expand and collapse button---------------------------------->
+    <script>
+        const expandbutton = document.getElementById("expand");
+        const collapsebutton = document.getElementById("collapse");
+        const paraph = document.getElementById("paragraph");
+
+        expandbutton.addEventListener("click", () => {
+            paraph.innerHTML = "Squier raises the bar for the legendary electric bass by offering a wide range of models with high performance for all styles. From vintage-inspired tones to modern designs, every musician can find their match.";
+            expandbutton.style = "display: none";
+            collapsebutton.style = "display: block";
+        });
+
+        collapsebutton.addEventListener("click", () => {
+            paraph.innerHTML = "Squier raises the bar for the legendary electric bass by offering";
+            expandbutton.style = "display: block";
+            collapsebutton.style = "display: none";
+        });
+    </script>
+    <!-------------------------------------Javascript for expand and collapse button---------------------------------->
 </body>
 
 </html>

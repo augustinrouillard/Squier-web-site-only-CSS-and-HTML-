@@ -409,3 +409,26 @@ div.scroll-container2 img {
 }
 
 /* -----------------------------------Mendatory section-------------------------------- */
+/*-------------------------------------Javascript for expand and collapse button--------------------------------- */
+#expand,
+#collapse {
+    font-family: "Alan Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 12px;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px 20px;
+}
+
+#expand:hover,
+#collapse:hover {
+    background-color: black;
+    color: white;
+}
+
+/*-------------------------------------Javascript for expand and collapse button--------------------------------- */
