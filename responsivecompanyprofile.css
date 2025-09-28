@@ -1,8 +1,8 @@
 /* ---------------------------------Responsive paramameters---------------------------------- */
 @media screen and (max-width: 767px) {
-  .companytextonvideo .basses {
-    border-bottom: none;
-  }
+    .companytextonvideo .basses {
+        border-bottom: none;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -45,16 +45,17 @@
     .companytextonvideo .basses {
         font-size: 70px;
         line-height: 55px;
-  }
-  .history-block {
-    flex-direction: row;
-    justify-content: center;
-  }
+    }
 
-  .history-block p {
-    text-align: left;
-    font-size: 1.1rem;
-  }
+    .history-block {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .history-block p {
+        text-align: left;
+        font-size: 1.1rem;
+    }
 
 }
 
@@ -115,5 +116,5 @@
     .companytextonvideo .basses {
         font-size: 90px;
         line-height: 70px;
-  }
+    }
 }

@@ -103,6 +103,7 @@ header.navbar {
     font-optical-sizing: auto;
     font-weight: 400;
 }
+
 /* -----------------------------------Shop container-------------------------------- */
 /* -----------------------------------Gallery Jazz and Precision-------------------------------- */
 div.scroll-container {
@@ -131,6 +132,7 @@ div.scroll-container2 img {
     height: 300px;
     margin-right: 10px;
 }
+
 /* -----------------------------------Gallery Jazz and Precision-------------------------------- */
 /* -----------------------------------Social-------------------------------- */
 .socials-wrapper {
@@ -145,6 +147,7 @@ div.scroll-container2 img {
     width: 25px;
     height: auto;
 }
+
 /* -----------------------------------Social-------------------------------- */
 /* -----------------------------------Mendatory section-------------------------------- */
 .mendatorysection-wrapper {
@@ -170,4 +173,5 @@ div.scroll-container2 img {
 .mendatorysection-wrapper p {
     font-style: italic;
 }
+
 /* -----------------------------------Mendatory section-------------------------------- */
